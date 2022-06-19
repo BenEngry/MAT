@@ -550,12 +550,14 @@ body {
 
     transition: .4s ease-in-out;
 
-    gap: 10px;
-
     &:hover {
         background: none;
         border: 3px solid #4D4D4D;
         color: #4D4D4D;
+
+        img {
+            filter: invert(30%) sepia(1%) saturate(2713%) hue-rotate(352deg) brightness(93%) contrast(91%);
+        }
     }
 }
 
@@ -788,6 +790,12 @@ body {
     &__info {
         font-weight: 400;
         font-size: 14px;
+    }
+
+    &__button {
+        img {
+            padding-left: 10px;
+        }
     }
 }
 
