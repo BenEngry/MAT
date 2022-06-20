@@ -800,6 +800,109 @@ body {
 }
 
 
+// prices 
+
+.prices {
+    width: 100%;
+    height: 800px;
+
+    color: $primary-color;
+
+    &__container {
+        height: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    &__title {
+        width: 100%;
+        text-align: left;
+        padding-bottom: 50px;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: row;
+
+        gap: 60px;
+    }
+
+    &__design {
+        width: 360px;
+        padding: 25px 45px;
+
+        border: 1px solid $primary-color;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            padding-bottom: 20px;
+        }
+    }
+    
+    &__subtitle {
+        font-family: $font-titels;
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    &__list {
+        margin: 40px 0px 70px 0px;
+        padding: 0px;
+    }
+
+    &__item {
+        margin: 15px 0px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    &__price {
+        font-family: $font-titels;
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    &__span {
+        font-size: 36px;
+    }
+
+    &__button {
+        width: 230px;
+        height: 45px;
+    }
+    
+    &__author {
+        padding: 25px 45px;
+
+        border: 1px solid $primary-color;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__condition {
+        color: #636363;
+        font-size: 14px;
+    }
+
+    &__bottom {
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        flex-direction: row;
+    }
+
+}
+
 
 
 

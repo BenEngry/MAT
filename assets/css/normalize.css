@@ -362,6 +362,9 @@
     padding: 0px;
     margin: 0px;
   }
+  h2 {
+    margin: 0px;  
+  }
   p {
     margin: 0px;
   }

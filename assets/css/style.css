@@ -443,4 +443,68 @@ body {
   .projects__button img {
     padding-left: 10px; }
 
+.prices {
+  width: 100%;
+  height: 800px;
+  color: #FCFCFC; }
+  .prices__container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+  .prices__title {
+    width: 100%;
+    text-align: left;
+    padding-bottom: 50px; }
+  .prices__info {
+    display: flex;
+    flex-direction: row;
+    gap: 60px; }
+  .prices__design {
+    width: 360px;
+    padding: 25px 45px;
+    border: 1px solid #FCFCFC;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+    .prices__design h2 {
+      padding-bottom: 20px; }
+  .prices__subtitle {
+    font-family: "Garamond";
+    font-weight: 700;
+    font-size: 28px; }
+  .prices__list {
+    margin: 40px 0px 70px 0px;
+    padding: 0px; }
+  .prices__item {
+    margin: 15px 0px;
+    font-weight: 400;
+    font-size: 18px; }
+  .prices__price {
+    font-family: "Garamond";
+    font-weight: 700;
+    font-size: 28px; }
+  .prices__span {
+    font-size: 36px; }
+  .prices__button {
+    width: 230px;
+    height: 45px; }
+  .prices__author {
+    padding: 25px 45px;
+    border: 1px solid #FCFCFC;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .prices__condition {
+    color: #636363;
+    font-size: 14px; }
+  .prices__bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row; }
+
 /*# sourceMappingURL=style.css.map */
